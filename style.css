@@ -1,0 +1,132 @@
+/* .raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 2rem;
+}
+header{
+    display: flex;
+    gap: 60rem;
+}
+.header-links{
+    display: flex;
+    gap: 2rem;
+}
+.header-links a {
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.body-accessible{
+    display: flex;
+    padding-top: 5rem;
+}
+.accesstext-btn{
+    padding-top: 10rem;
+}
+.access-text h1{
+    font-family:"Raleway", sans-serif;
+    font-weight :700; 
+    font-size: xxx-large;
+}
+.access-text p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 29rem;
+    padding-bottom: 15px;
+}
+.access-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.access-img{
+    padding-right: 7rem;
+}
+.acess-btn{
+    display: flex;
+    flex-direction: row;
+}
+.productive-body{
+    display: flex;
+    background-color: hsl(240, 75%, 98%) ;
+}
+.middlebg{
+    background-color: hsl(240, 75%, 98%);
+}
+.product-textp{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 3rem;
+    width: 30rem;
+}
+.product-text h1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: xxx-large;
+    width: 50rem;
+}
+.product-text-2{
+    background-color: wheat;
+    border-radius: 1rem;
+    width: 20rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.ceo{
+    display: flex;
+}
+.ceo-img{
+    margin-top: 1rem;
+}
+.ceo-img img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+}
+.ceo-details{
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+}
+.text2-img{
+    width: 7%;
+    height: 100%;
+}
+.accessbtn{
+    display: flex;
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    padding-top: 5rem;
+}
+.access-body h1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: xxx-large;
+    width: 50rem;
+}
+.access-body p{
+    width: 24rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+footer{
+    display: flex;
+}
+footer svg{
+    width: 50%;
+}
