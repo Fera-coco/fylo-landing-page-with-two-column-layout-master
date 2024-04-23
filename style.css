@@ -9,10 +9,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+}
 header{
     display: flex;
     gap: 60rem;
-    padding-top: 3rem;
+    padding-top: 5rem;
     padding-left: 5rem;
 }
 .header-img{
@@ -42,7 +46,7 @@ img{
     height: 10rem;
 }
 .accesstext-btn{
-    padding-top: 10rem;
+    padding-top: 5rem;
     width: 50%;
 }
 
@@ -67,6 +71,9 @@ img{
     width: 25rem;
     padding: 0.7rem;
 }
+.access-btn input:hover{
+    border: 2px solid red;
+}
 .access-text{
     display: flex;
     flex-direction: column;
@@ -81,6 +88,25 @@ img{
     padding: 10px;
     width: 40%;
 }
+.secure-btn{
+    display: flex;
+    gap: 1rem;
+}
+.secure-btn input:hover{
+    border: 2px solid red;
+}
+.secure-btn button{
+    width: 30%;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 12px;
+}
+.secure-btn button:hover{
+    background-color: hsl(239, 83%, 68%);
+    cursor: pointer;
+}
 .acess-btn{
     display: flex;
     flex-direction: row;
@@ -94,6 +120,11 @@ img{
     border: none;
     padding: 12px;
 }
+.access-btn button:hover{
+    background-color:  hsl(239, 83%, 68%);
+    cursor: pointer;
+}
+
 .productive-body{
     display: flex;
     background-color: hsl(240, 75%, 98%) ;
@@ -178,21 +209,30 @@ footer{
     background-color:  hsl(243, 87%, 12%);
     padding-left: 5rem;
     color: white;
+    height: 18rem;
 }
 footer svg img{
-    width: 10%;
+    width: 7%;
 }
-.product-green{
+.pgreen{
     display: flex;
-    color: mediumseagreen;
-    border-bottom: 1px solid mediumseagreen;
-    width: 9rem;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    width: 10rem;
     gap: 1.5px;
     padding-bottom: 2px;
 }
-.product-green img{
+.pgreen:hover{
+    cursor: pointer;
+    color:rgb(29, 229, 62) ;
+    border-bottom: 1px solid rgb(29, 229, 62) ;
+}
+.pgreen img{
     width: 10%;
     padding-top: 3px;
+}
+.pgreen svg:hover{
+    fill: rgb(141, 244, 187);
 }
 .footer-logo{
     padding-top: 5rem;
@@ -210,7 +250,7 @@ footer svg img{
     width: 1.2rem;
 }
 .footer-icons img{
-    width: 10%;
+    width: 7%;
 }
 .contact{
     display: flex;
@@ -224,4 +264,34 @@ footer svg img{
 }
 .all-links{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80rem;
+}
+.footer-links1 li{
+    padding-bottom: 1rem;
+}
+.footer-links1 li:hover{
+    color: cornflowerblue;
+}
+.footer-links2 li{
+    padding-bottom: 1rem;
+}
+.footer-links2 li:hover{
+    color: cornflowerblue;
+}
+ul{
+    list-style-type: none;
+    gap: 1rem;
+}
+.footer-icons{
+    display: flex;
+    gap: 1rem;
+}
+.footer-icons svg:hover{
+    fill: cornflowerblue;
+}
+#SVGRepo_iconCarrier:hover{
+    fill: cornflowerblue;
+    color: hsl(170, 45%, 43%);
 }
